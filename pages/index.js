@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import "../styles/Home.module.css";
 
 export default function Home() {
@@ -10,7 +9,7 @@ export default function Home() {
           <div className='row min-vh-100 align-items-center align-content-center'>
             <div className='col-md-6 mt-5 mt-md-0'>
               <div className='home-img text-center'>
-                <Image
+                <img
                   src='https://cdn.pixabay.com/photo/2017/02/24/02/37/classroom-2093744_960_720.jpg'
                   className='mw-100'
                   alt='profile img'
@@ -53,7 +52,7 @@ export default function Home() {
             <div className='col-lg-3 mb-4'>
               <div className='row'>
                 <div className='col-md-12'>
-                  <Image
+                  <img
                     src='https://cdn.pixabay.com/photo/2018/08/28/12/41/avatar-3637425_960_720.png'
                     alt='wrapkit'
                     className='img-fluid rounded-circle'
@@ -86,7 +85,7 @@ export default function Home() {
             <div className='col-lg-3 mb-4'>
               <div className='row'>
                 <div className='col-md-12'>
-                  <Image
+                  <img
                     src='https://cdn.pixabay.com/photo/2018/08/28/12/41/avatar-3637425_960_720.png'
                     alt='wrapkit'
                     className='img-fluid rounded-circle'
@@ -115,7 +114,7 @@ export default function Home() {
             <div className='col-lg-3 mb-4'>
               <div className='row'>
                 <div className='col-md-12'>
-                  <Image
+                  <img
                     src='https://cdn.pixabay.com/photo/2018/08/28/12/41/avatar-3637425_960_720.png'
                     alt='wrapkit'
                     className='img-fluid rounded-circle'
@@ -144,7 +143,7 @@ export default function Home() {
             <div className='col-lg-3 mb-4'>
               <div className='row'>
                 <div className='col-md-12'>
-                  <Image
+                  <img
                     src='https://cdn.pixabay.com/photo/2018/08/28/12/41/avatar-3637425_960_720.png'
                     alt='wrapkit'
                     className='img-fluid rounded-circle'
@@ -290,7 +289,7 @@ export default function Home() {
           <div className='row'>
             <div className='col-md-6 col-lg-4'>
               <div className='portfolio-item'>
-                <Image
+                <img
                   src='https://cdn.pixabay.com/photo/2017/02/24/02/37/classroom-2093744_960_720.jpg'
                   className='w-100 img-thumbnail'
                   alt='portfolio item'
@@ -299,7 +298,7 @@ export default function Home() {
             </div>
             <div className='col-md-6 col-lg-4'>
               <div className='portfolio-item'>
-                <Image
+                <img
                   src='https://cdn.pixabay.com/photo/2017/02/24/02/37/classroom-2093744_960_720.jpg'
                   className='w-100 img-thumbnail'
                   alt='portfolio item'
@@ -308,7 +307,7 @@ export default function Home() {
             </div>
             <div className='col-md-6 col-lg-4'>
               <div className='portfolio-item'>
-                <Image
+                <img
                   src='https://cdn.pixabay.com/photo/2017/02/24/02/37/classroom-2093744_960_720.jpg'
                   className='w-100 img-thumbnail'
                   alt='portfolio item'
@@ -324,7 +323,7 @@ export default function Home() {
           <div className='row'>
             <div className='col-lg-12 py-5'>
               <p className='m-0 text-left text-muted'>
-                <Image
+                <img
                   src='https://www.csun.edu/sites/default/themes/csun/logo.png'
                   alt='csun logo'
                 />
