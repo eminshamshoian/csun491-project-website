@@ -95,7 +95,9 @@ export default function Home() {
                   <div className='pt-2'>
                     <h5 className='mt-4 font-weight-medium mb-0'>Edgar</h5>
                     <h6 className='subtitle mb-3'>Frontend Developer</h6>
-                    <p>Description</p>
+                    <p>Determine to find a new way to improve oneself. Always looking 
+                      to seek other feedback to show progress and change.
+                    </p>
                     <div className='social-links'>
                       <a
                         href='https://github.com/SimplyEdgar'
