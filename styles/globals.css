@@ -17,8 +17,28 @@ a {
   box-sizing: border-box;
 }
 
+.black-bold {
+  color: #000000;
+  font-weight: 700;
+}
+
+.entire-app {
+  background: url(https://cdn.pixabay.com/photo/2016/12/15/20/28/classroom-1910012_960_720.jpg);
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 25000px rgba(209, 209, 209, 0.877);
+}
+
 strong {
   font-weight: 800;
+}
+
+.team-desc {
+  font-weight: 500;
 }
 
 .main-color {

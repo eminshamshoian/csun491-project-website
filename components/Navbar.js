@@ -6,7 +6,10 @@ const Navbar = () => {
     <nav className='navbar navbar-expand-lg navbar-light bg-light'>
       <div className='container-fluid'>
         <a className='navbar-brand' href='#'>
-          Navbar
+          <img
+            src='SwiftifyTicketing_1.png'
+            style={{ height: "100%", width: "100px", borderRadius: "5px" }}
+          />
         </a>
         <button
           className='navbar-toggler'
@@ -32,10 +35,15 @@ const Navbar = () => {
               </a>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='#'>
-                Pricing
+              <a className='nav-link' href='#about'>
+                About
               </a>
             </li>
+            {/* <li className='nav-item'>
+              <a className='nav-link' href='#demo'>
+                Demo
+              </a>
+            </li> */}
           </ul>
         </div>
       </div>
