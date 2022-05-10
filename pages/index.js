@@ -27,12 +27,18 @@ export default function Home() {
                   This is a website explaining our application we built for our
                   senior project at CSUN.
                 </h5>
-                {/* <a href='#portfolio' className='btn btn-color px-3 mt-3'>
-                  Demo
+                <a
+                  href='https://gleaming-snickerdoodle-22026b.netlify.app/'
+                  className='btn btn-color px-3 mt-3'
+                >
+                  Website
                 </a>{" "}
-                <a href='#portfolio' className='btn btn-color px-3 mt-3'>
-                  Code
-                </a> */}
+                <a
+                  href='https://www.facebook.com/SwiftifyTicketing-112132488145860'
+                  className='btn btn-color px-3 mt-3'
+                >
+                  Facebook Page
+                </a>{" "}
               </div>
             </div>
           </div>
@@ -297,7 +303,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* <section className='portfolio' id='demo'>
+      <section className='portfolio' id='demo'>
         <div className='container-lg py-5'>
           <div className='row justify-content-center'>
             <div className='col-lg-8'>
@@ -307,28 +313,28 @@ export default function Home() {
             </div>
           </div>
           <div className='row'>
-            <div className='col-md-6 col-lg-4'>
+            <div className='col-md-6 col-lg-12'>
               <div className='portfolio-item'>
                 <img
-                  src='https://cdn.pixabay.com/photo/2017/02/24/02/37/classroom-2093744_960_720.jpg'
+                  src='home.PNG'
                   className='w-100 img-thumbnail'
                   alt='portfolio item'
                 />
               </div>
             </div>
-            <div className='col-md-6 col-lg-4'>
+            <div className='col-md-6 col-lg-12'>
               <div className='portfolio-item'>
                 <img
-                  src='https://cdn.pixabay.com/photo/2017/02/24/02/37/classroom-2093744_960_720.jpg'
+                  src='dashboard.PNG'
                   className='w-100 img-thumbnail'
                   alt='portfolio item'
                 />
               </div>
             </div>
-            <div className='col-md-6 col-lg-4'>
+            <div className='col-md-6 col-lg-12'>
               <div className='portfolio-item'>
                 <img
-                  src='https://cdn.pixabay.com/photo/2017/02/24/02/37/classroom-2093744_960_720.jpg'
+                  src='add.PNG'
                   className='w-100 img-thumbnail'
                   alt='portfolio item'
                 />
@@ -336,7 +342,34 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
+
+      <section>
+        <div className='container-lg py-5'>
+          <div className='row justify-content-center'>
+            <div className='col-lg-8'>
+              <div className='section-title text-center'>
+                <h2 className='fw-bold mb-5'>Demo Video</h2>
+              </div>
+            </div>
+          </div>
+          <div className='row'>
+            <div className='col-md-6 col-lg-12'>
+              <div className='portfolio-item'>
+                <iframe
+                  width='1080'
+                  height='720'
+                  src='https://www.youtube.com/embed/WAJet6-9gnk'
+                  title='YouTube video player'
+                  frameBorder='0'
+                  allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <footer className='footer border-top py-4'>
         <div className='container-lg'>
